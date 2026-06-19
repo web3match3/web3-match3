@@ -1,8 +1,9 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center px-6 py-24">
+
+      {/* HERO */}
+      <section className="flex flex-col items-center text-center px-6 py-24">
         <h1 className="text-5xl font-bold">
           Match3 Web3
         </h1>
@@ -11,92 +12,266 @@ export default function Home() {
           Play. Compete. Win USDT.
         </p>
 
-        <p className="mt-6 max-w-2xl text-gray-400">
-          A competitive Match-3 puzzle game where players battle for leaderboard
-          positions and share the growing USDT prize pool.
+        <div className="mt-8 flex gap-4">
+          <button className="border rounded-lg px-6 py-3">
+            Connect Wallet
+          </button>
+
+          <button className="border rounded-lg px-6 py-3">
+            Read Litepaper
+          </button>
+        </div>
+      </section>
+
+
+      {/* ABOUT */}
+      <section className="max-w-5xl mx-auto px-6 py-16">
+        <h2 className="text-4xl font-bold mb-8">
+          About
+        </h2>
+
+        <p className="text-gray-300">
+          Match3 Web3 is a competitive Match-3 puzzle game built on Web3.
         </p>
 
-        <div className="mt-8 flex gap-4">
-          <button className="rounded-lg border px-6 py-3">
-            Litepaper
-          </button>
+        <p className="mt-4 text-gray-300">
+          Players compete during a 50-day season.
+        </p>
 
-          <button className="rounded-lg border px-6 py-3">
-            Leaderboard
-          </button>
-        </div>
+        <p className="mt-4 text-gray-300">
+          Top 300 players receive USDT rewards.
+        </p>
       </section>
 
-      {/* Stats */}
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 pb-20 max-w-5xl mx-auto">
+
+      {/* STATS */}
+      <section className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto px-6 py-16">
+
         <div className="border rounded-xl p-6 text-center">
-          <h2 className="text-3xl font-bold">0</h2>
-          <p className="text-gray-400">Players Registered</p>
+          <h3 className="text-3xl font-bold">
+            0
+          </h3>
+
+          <p className="text-gray-400">
+            Registered Players
+          </p>
         </div>
 
         <div className="border rounded-xl p-6 text-center">
-          <h2 className="text-3xl font-bold">0 USDT</h2>
-          <p className="text-gray-400">Current Prize Pool</p>
+          <h3 className="text-3xl font-bold">
+            0 USDT
+          </h3>
+
+          <p className="text-gray-400">
+            Current Prize Pool
+          </p>
         </div>
 
         <div className="border rounded-xl p-6 text-center">
-          <h2 className="text-3xl font-bold">50 Days</h2>
-          <p className="text-gray-400">Season Duration</p>
+          <h3 className="text-3xl font-bold">
+            50 Days
+          </h3>
+
+          <p className="text-gray-400">
+            Season Duration
+          </p>
         </div>
+
       </section>
 
-      {/* How It Works */}
+
+      {/* HOW IT WORKS */}
       <section className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold text-center mb-12">
+
+        <h2 className="text-4xl font-bold mb-12 text-center">
           How It Works
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
+
           <div className="border rounded-xl p-6">
-            <h3 className="font-bold mb-2">1. Register</h3>
-            <p>Connect wallet and pay 3 USDT.</p>
+            1. Connect Wallet
           </div>
 
           <div className="border rounded-xl p-6">
-            <h3 className="font-bold mb-2">2. Play</h3>
-            <p>Play Match-3 puzzle games every day.</p>
+            2. Pay 3 USDT Entry Fee
           </div>
 
           <div className="border rounded-xl p-6">
-            <h3 className="font-bold mb-2">3. Earn</h3>
-            <p>Collect Perfect Runs and climb the leaderboard.</p>
+            3. Play Daily
           </div>
 
           <div className="border rounded-xl p-6">
-            <h3 className="font-bold mb-2">4. Win</h3>
-            <p>Top 300 players receive USDT rewards.</p>
+            4. Earn Perfect Runs
           </div>
+
+          <div className="border rounded-xl p-6">
+            5. Climb Leaderboard
+          </div>
+
+          <div className="border rounded-xl p-6">
+            6. Win USDT Rewards
+          </div>
+
         </div>
+
       </section>
 
-      {/* Rules */}
+
+      {/* SEASON RULES */}
       <section className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold text-center mb-12">
+
+        <h2 className="text-4xl font-bold mb-10">
           Season Rules
         </h2>
 
-        <div className="border rounded-xl p-8">
-          <ul className="space-y-3">
-            <li>✓ Entry Fee: 3 USDT</li>
-            <li>✓ 15 Free Games Daily</li>
-            <li>✓ Extra 5 Games = 0.5 USDT</li>
-            <li>✓ Max 5 Purchases Daily</li>
-            <li>✓ Max 40 Games Daily</li>
-            <li>✓ Season Duration: 50 Days</li>
-            <li>✓ Top 300 Players Win Rewards</li>
-          </ul>
-        </div>
+        <ul className="space-y-4">
+
+          <li>Season Duration : 50 Days</li>
+
+          <li>15 Free Games Daily</li>
+
+          <li>Extra Games : 5 Games = 0.5 USDT</li>
+
+          <li>Max Purchase : 5 Times Daily</li>
+
+          <li>Max Games : 40 Daily</li>
+
+        </ul>
+
       </section>
 
-      {/* Footer */}
-      <footer className="border-t py-8 text-center text-gray-500">
+
+      {/* LEADERBOARD */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+
+        <h2 className="text-4xl font-bold mb-10">
+          Leaderboard Rules
+        </h2>
+
+        <ul className="space-y-4">
+
+          <li>Perfect Run = +1 Point</li>
+
+          <li>1. Most Perfect Runs</li>
+
+          <li>2. Fewer Games Played</li>
+
+          <li>3. Earlier Achievement Time</li>
+
+        </ul>
+
+      </section>
+
+
+      {/* PRIZE POOL */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+
+        <h2 className="text-4xl font-bold mb-10">
+          Prize Pool
+        </h2>
+
+        <ul className="space-y-4">
+
+          <li>70% Prize Pool</li>
+
+          <li>20% Operations</li>
+
+          <li>10% Reserve</li>
+
+        </ul>
+
+      </section>
+
+
+      {/* ANTI CHEAT */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+
+        <h2 className="text-4xl font-bold mb-10">
+          Anti Cheat
+        </h2>
+
+        <ul className="space-y-4">
+
+          <li>One Wallet = One Account</li>
+
+          <li>Server-Side Validation</li>
+
+          <li>Activity Monitoring</li>
+
+          <li>Fair Ranking System</li>
+
+        </ul>
+
+      </section>
+
+
+      {/* ROADMAP */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+
+        <h2 className="text-4xl font-bold mb-10">
+          Roadmap
+        </h2>
+
+        <ul className="space-y-4">
+
+          <li>Season 1 — Launch MVP</li>
+
+          <li>Season 2 — Referral System</li>
+
+          <li>Season 3 — Achievements</li>
+
+          <li>Season 4 — Guild System</li>
+
+        </ul>
+
+      </section>
+
+
+      {/* FAQ */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+
+        <h2 className="text-4xl font-bold mb-10">
+          FAQ
+        </h2>
+
+        <div className="space-y-8">
+
+          <div>
+            <h3 className="font-bold">
+              Can I create multiple accounts?
+            </h3>
+
+            <p>No.</p>
+          </div>
+
+          <div>
+            <h3 className="font-bold">
+              How are rewards distributed?
+            </h3>
+
+            <p>USDT sent directly to winners.</p>
+          </div>
+
+          <div>
+            <h3 className="font-bold">
+              How is ranking calculated?
+            </h3>
+
+            <p>
+              Perfect Runs + Tie Break Rules.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <footer className="text-center text-gray-500 py-12">
         Match3 Web3 © 2026
       </footer>
+
     </main>
   );
 }
