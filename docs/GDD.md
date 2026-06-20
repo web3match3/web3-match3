@@ -304,3 +304,197 @@ PvP Tournament
 NFT Cosmetics
 
 Spectator Mode
+## 13. Game Mechanics
+
+### Game Mode
+
+Mode:
+
+Score Attack
+
+
+### Board
+
+Board Size:
+
+9 × 9
+
+Total Tiles:
+
+81
+
+
+### Tile Types
+
+There are 6 tile types:
+
+🔴 Ruby
+
+🔵 Sapphire
+
+🟢 Emerald
+
+🟡 Gold
+
+🟣 Crystal
+
+🟠 Fire
+
+
+### Move Limit
+
+Maximum:
+
+30 Moves
+
+
+### Target Score
+
+Target Score:
+
+20,000
+
+
+### Game End Conditions
+
+The game ends when:
+
+1. Player reaches 20,000 points
+
+OR
+
+2. Player uses all 30 moves
+
+Whichever comes first.
+
+
+### Match Rules
+
+Players can swap adjacent tiles.
+
+Valid Matches:
+
+- Match 3
+- Match 4
+- Match 5
+
+After a match:
+
+1. Matched tiles disappear.
+
+2. Tiles above fall down.
+
+3. New tiles spawn from top.
+
+4. Automatic chain reactions continue until no match remains.
+
+
+### Scoring System
+
+Match 3:
+
+100 Points
+
+Match 4:
+
+250 Points
+
+Match 5:
+
+500 Points
+
+
+### Combo Chain
+
+Chain 1:
+
+Normal Score
+
+Chain 2:
+
++50%
+
+Chain 3:
+
++100%
+
+Chain 4:
+
++150%
+
+Chain 5+:
+
++200%
+
+
+### Perfect Run
+
+A run is considered PERFECT if:
+
+✓ Every move creates a valid match.
+
+✓ No Dead Move occurs.
+
+✓ No Hint is used.
+
+✓ Every move triggers at least one Combo Chain.
+
+✓ Server validation passed.
+
+
+Dead Move Definition:
+
+A move that does NOT create any Match-3 combination.
+
+
+### Perfect Bonus
+
++100% Final Score
+
+and
+
+Perfect Run Count +1
+
+
+### Leaderboard Priority
+
+1. Perfect Run Status
+
+2. Total Score
+
+3. Highest Combo Chain
+
+4. Fastest Completion Time
+
+
+### Power Ups
+
+Available Power Ups:
+
+Bomb
+
+Destroy surrounding tiles.
+
+
+Rainbow Tile
+
+Matches with any tile.
+
+
+Lightning
+
+Destroy one row and one column.
+
+
+Fire Blast
+
+Destroy selected area.
+
+
+Rules:
+
+Power Ups are earned from gameplay only.
+
+Power Ups cannot be purchased.
+
+Skill is prioritized over spending.
