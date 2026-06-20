@@ -204,7 +204,50 @@ export default function Home() {
         </ul>
 
       </section>
+{/* Game Mechanics */}
+<section className="max-w-5xl mx-auto px-6 py-20">
+  <h2 className="text-4xl font-bold mb-12">
+    Game Mechanics
+  </h2>
 
+  <div className="space-y-4">
+    <p><b>Mode:</b> Score Attack</p>
+    <p><b>Board:</b> 9×9</p>
+    <p><b>Tiles:</b> 6 Types</p>
+    <p><b>Move Limit:</b> 30</p>
+    <p><b>Target Score:</b> 20,000</p>
+
+    <h3 className="text-2xl mt-8">Game Ends When</h3>
+
+    <ul className="space-y-2">
+      <li>✓ Target 20,000 reached</li>
+      <li>✓ OR 30 moves are used</li>
+    </ul>
+
+    <h3 className="text-2xl mt-8">Perfect Run</h3>
+
+    <ul className="space-y-2">
+      <li>✓ Every move is valid</li>
+      <li>✓ No Dead Move</li>
+      <li>✓ No Hint Used</li>
+      <li>✓ Minimum one combo chain each move</li>
+      <li>✓ Server validated</li>
+    </ul>
+
+    <h3 className="text-2xl mt-8">Power Ups</h3>
+
+    <ul className="space-y-2">
+      <li>Bomb</li>
+      <li>Rainbow Tile</li>
+      <li>Lightning</li>
+      <li>Fire Blast</li>
+    </ul>
+
+    <p className="text-gray-400">
+      Power-ups are earned from gameplay only and cannot be purchased.
+    </p>
+  </div>
+</section>
 
       {/* ROADMAP */}
       <section className="max-w-5xl mx-auto px-6 py-20">

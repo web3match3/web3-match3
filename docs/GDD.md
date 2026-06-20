@@ -304,6 +304,7 @@ PvP Tournament
 NFT Cosmetics
 
 Spectator Mode
+
 ## 13. Game Mechanics
 
 ### Game Mode
@@ -498,3 +499,89 @@ Power Ups are earned from gameplay only.
 Power Ups cannot be purchased.
 
 Skill is prioritized over spending.
+
+## 14. Economy & Prize Distribution
+
+### Entry Fee
+
+Entry Fee:
+
+3 USDT
+
+The entry fee is fixed for every season.
+
+
+### Daily Free Games
+
+Players receive:
+
+15 Free Games per day.
+
+
+### Extra Games
+
+Players can purchase:
+
+5 Extra Games = 0.5 USDT
+
+Maximum Purchase:
+
+5 times per day.
+
+Maximum Games Per Day:
+
+40 Games.
+
+
+### Prize Pool Sources
+
+Prize Pool is generated from:
+
+- Entry Fees
+- Extra Game Purchases
+
+
+### Prize Pool Allocation
+
+70% → Rewards
+
+20% → Operations
+
+10% → Reserve
+
+
+### Reward Distribution
+
+Top 300 players receive rewards.
+
+Reward amount is dynamic.
+
+The higher the Prize Pool,
+the bigger the rewards.
+
+Higher Rank = Higher Reward.
+
+
+### Example
+
+If total Prize Pool:
+
+10,000 USDT
+
+Then:
+
+7,000 USDT → Rewards
+
+2,000 USDT → Operations
+
+1,000 USDT → Reserve
+
+
+### Real-Time Statistics
+
+The following values are displayed automatically:
+
+- Registered Players
+- Current Prize Pool
+- Current Season
+- Remaining Days
