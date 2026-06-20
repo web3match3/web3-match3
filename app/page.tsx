@@ -313,6 +313,68 @@ export default function Home() {
   </div>
 </section>
 
+{/* Database Structure */}
+<section className="max-w-5xl mx-auto px-6 py-20">
+
+  <h2 className="text-4xl font-bold mb-12">
+    Database Structure
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-6">
+
+    <div className="border rounded-xl p-6">
+      <h3 className="text-2xl mb-4">users</h3>
+
+      <ul className="space-y-2 text-gray-300">
+        <li>wallet_address</li>
+        <li>username</li>
+        <li>registered_at</li>
+        <li>last_login</li>
+        <li>status</li>
+      </ul>
+    </div>
+
+    <div className="border rounded-xl p-6">
+      <h3 className="text-2xl mb-4">player_stats</h3>
+
+      <ul className="space-y-2 text-gray-300">
+        <li>games_played</li>
+        <li>perfect_runs</li>
+        <li>highest_combo</li>
+        <li>highest_score</li>
+        <li>rank</li>
+      </ul>
+    </div>
+
+    <div className="border rounded-xl p-6">
+      <h3 className="text-2xl mb-4">game_results</h3>
+
+      <ul className="space-y-2 text-gray-300">
+        <li>game_id</li>
+        <li>wallet_address</li>
+        <li>score</li>
+        <li>moves_used</li>
+        <li>combo_max</li>
+        <li>perfect_run</li>
+      </ul>
+    </div>
+
+    <div className="border rounded-xl p-6">
+      <h3 className="text-2xl mb-4">prize_pool</h3>
+
+      <ul className="space-y-2 text-gray-300">
+        <li>registered_players</li>
+        <li>prize_pool_total</li>
+        <li>reward_pool</li>
+        <li>operations_pool</li>
+        <li>reserve_pool</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
       {/* ROADMAP */}
       <section className="max-w-5xl mx-auto px-6 py-20">
 
