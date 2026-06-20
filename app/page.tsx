@@ -183,6 +183,70 @@ export default function Home() {
 
       </section>
 
+{/* Economy & Prize Distribution */}
+<section className="max-w-5xl mx-auto px-6 py-20">
+
+  <h2 className="text-4xl font-bold mb-12">
+    Economy & Prize Distribution
+  </h2>
+
+  <div className="space-y-8">
+
+    <div>
+      <h3 className="text-2xl mb-4">Entry Fee</h3>
+
+      <p>3 USDT</p>
+
+      <p className="text-gray-400">
+        Fixed entry fee for every season.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-2xl mb-4">Daily Free Games</h3>
+
+      <p>15 Free Games Daily</p>
+    </div>
+
+    <div>
+      <h3 className="text-2xl mb-4">Extra Games</h3>
+
+      <ul className="space-y-2">
+        <li>5 Games = 0.5 USDT</li>
+        <li>Max Purchase: 5 Times Daily</li>
+        <li>Max Games: 40 Daily</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 className="text-2xl mb-4">Prize Pool Allocation</h3>
+
+      <ul className="space-y-2">
+        <li>70% → Rewards</li>
+        <li>20% → Operations</li>
+        <li>10% → Reserve</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 className="text-2xl mb-4">Reward Distribution</h3>
+
+      <p>
+        Top 300 players receive rewards.
+      </p>
+
+      <p className="text-gray-400 mt-2">
+        Higher Rank = Higher Reward
+      </p>
+
+      <p className="text-gray-400">
+        Rewards scale automatically with the Prize Pool.
+      </p>
+    </div>
+
+  </div>
+
+</section>
 
       {/* ANTI CHEAT */}
       <section className="max-w-5xl mx-auto px-6 py-20">
